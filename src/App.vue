@@ -2,7 +2,7 @@
   <Header></Header>
   <Form @searchSubmit="searchSubmit"></Form>
   <AdressList v-if="!isLoading" :adressItems="adressItems" :found="found" :isLoading="isLoading"></AdressList>
-  <Loader v-else>Идет загрузка...</Loader>
+  <Loader v-else></Loader>
 </template>
 
 <script>
