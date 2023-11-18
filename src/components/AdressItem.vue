@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 625px) {
   .adress__element {
     max-width: 400px;
     padding: 10px;
